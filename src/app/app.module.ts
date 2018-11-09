@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DtTimeseriesChartComponent } from './timeseries-chart/timeseries-chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DtTimeseriesChartComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
